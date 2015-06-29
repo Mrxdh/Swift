@@ -484,13 +484,13 @@ var threeDoubles = [Double](count: 3, repeatedValue: 0.0)
 
 var airport :Dictionary<String, String> = ["TYO": "Tokyo", "DUB": "Dublin"];
 
-if let oldValue = airport.updateValue("Dublin International", forKey: "DSAD") {
-    println("The old value for DUB was \(oldValue).")
-}
-
-airport["DSAD"] = nil
-
-println(airport);
+//if let oldValue = airport.updateValue("Dublin International", forKey: "DUB") {
+//    println("The old value for DUB was \(oldValue).")
+//}
+//
+//airport["DSAD"] = nil
+//
+//println(airport);
 
 
 //if let airportName = airport["DUB"] {
@@ -524,3 +524,160 @@ var namesOfIntegers = Dictionary<Int, String>()
 //// namesOfIntegers现在包含1 个键值对
 //namesOfIntegers = [:]
 //// namesOfIntegers 是一个类型为Int, String的空字典。
+
+for index in 1...5 {
+    println("\(index) times 5 is \(index * 5)")
+}
+// 1 times 5 is 5
+// 2 times 5 is 10
+// 3 times 5 is 15
+// 4 times 5 is 20
+// 5 times 5 is 25
+
+//let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
+//for (animalName, legCount) in numberOfLegs {
+//    println("\(animalName)s have \(legCount) legs")
+//}
+// spiders have 8 legs
+// ants have 6 legs
+// cats have 4 legs
+//for var index = 0; index < 3; ++index {
+//    println("index is \(index)")
+//}
+// index is 0
+// index is 1
+// index is 2
+
+//let somePoint = (1, 1)
+//switch somePoint {
+//case (0, 0):
+//    println("(0, 0) is at the origin")
+//case (_, 0):
+//    println("(\(somePoint.0), 0) is on the x-axis")
+//case (0, _):
+//    println("(0, \(somePoint.1)) is on the y-axis")
+//case (-2...2, -2...2):
+//    println("(\(somePoint.0), \(somePoint.1)) is inside the box")
+//default:
+//    println("(\(somePoint.0), \(somePoint.1)) is outside of the box")
+//}
+
+//let anotherPoint = (2, 0)
+//switch anotherPoint {
+//case (let x, 0):
+//    println("on the x-axis with an x value of \(x)")
+//case (0, let y):
+//    println("on the y-axis with a y value of \(y)")
+//case let (x, y):
+//    println("somewhere else at (\(x), \(y))")
+//}
+//// prints "on the x-axis with an x value of 2"
+
+//let yetAnotherPoint = (1, -1)
+//switch yetAnotherPoint {
+//case let (x, y) where x == y:
+//    println("(\(x), \(y)) is on the line x == y")
+//case let (x, y) where x == -y:
+//    println("(\(x), \(y)) is on the line x == -y")
+//case let (x, y):
+//    println("(\(x), \(y)) is just some arbitrary point")
+//}
+//// prints "(1, -1) is on the line x == -y"
+
+//let integerToDescribe = 5
+//var description = "The number \(integerToDescribe) is"
+//switch integerToDescribe {
+//case 2, 3, 5, 7, 11, 13, 17, 19:
+//    description += " a prime number, and also"
+//    fallthrough
+//default:
+//    description += " an integer."
+//}
+//println(description)
+//// prints "The number 5 is a prime number, and also an integer."
+
+let finalSquare = 25
+var board = [Int](count: finalSquare + 1, repeatedValue: 0)
+board[03] = +08; board[06] = +11; board[09] = +09; board[10] = +02
+board[14] = -10; board[19] = -11; board[22] = -02; board[24] = -08
+var square = 0
+var diceRoll = 0
+//
+//gameLoop: while square != finalSquare {
+//    if ++diceRoll == 7 { diceRoll = 1 }
+//    switch square + diceRoll {
+//    case finalSquare:
+//        // diceRoll will move us to the final square, so the game is over
+//        break gameLoop
+//    case let newSquare where newSquare > finalSquare:
+//        // diceRoll will move us beyond the final square, so roll again
+//        continue gameLoop
+//    default:
+//        // this is a valid move, so find out its effect
+//        square += diceRoll
+//        square += board[square]
+//    }
+//}
+//println("Game over!")
+
+//func count(string: String) -> (vowels: Int, consonants: Int, others: Int) {
+//    var vowels = 0, consonants = 0, others = 0
+//    for character in string {
+//        switch String(character).lowercaseString {
+//        case "a", "e", "i", "o", "u":
+//            ++vowels
+//        case "b", "c", "d", "f", "g", "h", "j", "k", "l", "m",
+//        "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z":
+//            ++consonants
+//        default:
+//            ++others
+//        }
+//    }
+//    return (vowels, consonants, others)
+//}
+
+//func join(string s1: String, toString s2: String,
+//    withJoiner joiner: String = " ") -> String {
+//        return s1 + joiner + s2
+//}
+//
+//join(string: "hello", toString: "world", withJoiner: "-")
+//// returns "hello-world"
+
+//func join(s1: String, s2: String, joiner: String = " ") -> String {
+//    return s1 + joiner + s2
+//}
+
+
+func arithmeticMean(numbers: Double...) -> Double {
+    var total: Double = 0
+    for number in numbers {
+        total += number
+    }
+    return total / Double(numbers.count)
+}
+arithmeticMean(1, 2, 3, 4, 5)
+// returns 3.0, which is the arithmetic mean of these five numbers
+arithmeticMean(3, 8, 19)
+// returns 10.0, which is the arithmetic mean of these three numbers
+
+//var mathFunction: (Int, Int) -> Int = addTwoInts
+
+//func chooseStepFunction(backwards: Bool) -> (Int) -> Int {
+//    func stepForward(input: Int) -> Int { return input + 1 }
+//    func stepBackward(input: Int) -> Int { return input - 1 }
+//    return backwards ? stepBackward : stepForward
+//}
+//var currentValue = -4
+//let moveNearerToZero = chooseStepFunction(currentValue > 0)
+//// moveNearerToZero now refers to the nested stepForward() function
+//while currentValue != 0 {
+//    println("\(currentValue)... ")
+//    currentValue = moveNearerToZero(currentValue)
+//}
+//println("zero!")
+//// -4...
+//// -3...
+//// -2...
+//// -1...
+//// zero!
