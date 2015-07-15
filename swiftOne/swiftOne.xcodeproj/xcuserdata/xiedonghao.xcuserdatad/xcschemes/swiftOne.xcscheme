@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "051BA9C01B392D2C00571E4B"
-               BuildableName = "commandLand"
-               BlueprintName = "commandLand"
-               ReferencedContainer = "container:commandLand.xcodeproj">
+               BlueprintIdentifier = "05E88EEA1B4203BC009877F3"
+               BuildableName = "swiftOne.app"
+               BlueprintName = "swiftOne"
+               ReferencedContainer = "container:swiftOne.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "05E88EFF1B4203BC009877F3"
+               BuildableName = "swiftOneTests.xctest"
+               BlueprintName = "swiftOneTests"
+               ReferencedContainer = "container:swiftOne.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +42,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "05E88EFF1B4203BC009877F3"
+               BuildableName = "swiftOneTests.xctest"
+               BlueprintName = "swiftOneTests"
+               ReferencedContainer = "container:swiftOne.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "051BA9C01B392D2C00571E4B"
-            BuildableName = "commandLand"
-            BlueprintName = "commandLand"
-            ReferencedContainer = "container:commandLand.xcodeproj">
+            BlueprintIdentifier = "05E88EEA1B4203BC009877F3"
+            BuildableName = "swiftOne.app"
+            BlueprintName = "swiftOne"
+            ReferencedContainer = "container:swiftOne.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "051BA9C01B392D2C00571E4B"
-            BuildableName = "commandLand"
-            BlueprintName = "commandLand"
-            ReferencedContainer = "container:commandLand.xcodeproj">
+            BlueprintIdentifier = "05E88EEA1B4203BC009877F3"
+            BuildableName = "swiftOne.app"
+            BlueprintName = "swiftOne"
+            ReferencedContainer = "container:swiftOne.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "051BA9C01B392D2C00571E4B"
-            BuildableName = "commandLand"
-            BlueprintName = "commandLand"
-            ReferencedContainer = "container:commandLand.xcodeproj">
+            BlueprintIdentifier = "05E88EEA1B4203BC009877F3"
+            BuildableName = "swiftOne.app"
+            BlueprintName = "swiftOne"
+            ReferencedContainer = "container:swiftOne.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

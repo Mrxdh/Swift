@@ -681,3 +681,22 @@ arithmeticMean(3, 8, 19)
 //// -2...
 //// -1...
 //// zero!
+
+
+//reversed = sort(names, { (s1: String, s2: String) -> Bool in return s1 > s2 } )
+
+//闭包
+//reversed = sort(names, { s1, s2 in return s1 > s2 } )
+
+//单行表达式闭包可以省略 return
+//reversed = sort(names, { s1, s2 in s1 > s2 } )
+
+//Swift 自动为内联函数提供了参数名称简写功能
+//reversed = sort(names, { $0 > $1 } )
+
+//运算符函数
+//reversed = sort(names, >)
+
+//namesOfIntegers[16] = "sixteen"
+//namesOfIntegers = [:]
+//print(namesOfIntegers);
