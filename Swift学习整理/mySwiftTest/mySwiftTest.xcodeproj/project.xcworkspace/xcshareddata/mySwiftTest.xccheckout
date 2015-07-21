@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1366DCF3-732B-4A56-8AAE-74AFD74F03E4</string>
+	<string>BF2F1C4D-60FD-45CE-AA46-3EE799D3307B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>commandLand</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2416894DCD7C1900E26D0DCD52CEE8CD58E43DF3</key>
 		<string>https://github.com/Mrxdh/Swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>测试/commandLand/commandLand.xcodeproj</string>
+	<string>Swift学习整理/mySwiftTest/mySwiftTest.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2416894DCD7C1900E26D0DCD52CEE8CD58E43DF3</key>
