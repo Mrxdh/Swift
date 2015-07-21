@@ -526,7 +526,7 @@ var namesOfIntegers = Dictionary<Int, String>()
 //// namesOfIntegers 是一个类型为Int, String的空字典。
 
 for index in 1...5 {
-    println("\(index) times 5 is \(index * 5)")
+//    println("\(index) times 5 is \(index * 5)")
 }
 // 1 times 5 is 5
 // 2 times 5 is 10
@@ -700,3 +700,21 @@ arithmeticMean(3, 8, 19)
 //namesOfIntegers[16] = "sixteen"
 //namesOfIntegers = [:]
 //print(namesOfIntegers);
+
+let digitNames = [
+    0: "Zero", 1: "One", 2: "Two", 3: "Three", 4: "Four",
+    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
+]
+let numbers = [16, 58, 510]
+
+let strings=numbers.map({
+    (var numbera) -> String in
+    var output="";
+    while(numbera>0){
+        output = digitNames[numbera%10]! + output
+        numbera /= 10
+    }
+    return output;
+})
+
+println(strings);
