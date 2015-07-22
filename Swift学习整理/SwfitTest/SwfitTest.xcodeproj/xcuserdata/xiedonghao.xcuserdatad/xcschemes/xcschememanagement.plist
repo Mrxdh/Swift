@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>mySwiftTest.xcscheme</key>
+		<key>SwfitTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05E05F421B5E9F3C008DD026</key>
+		<key>05E05FAF1B5EA632008DD026</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "05E05F421B5E9F3C008DD026"
-               BuildableName = "mySwiftTest"
-               BlueprintName = "mySwiftTest"
-               ReferencedContainer = "container:mySwiftTest.xcodeproj">
+               BlueprintIdentifier = "05E05FAF1B5EA632008DD026"
+               BuildableName = "SwfitTest"
+               BlueprintName = "SwfitTest"
+               ReferencedContainer = "container:SwfitTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "05E05F421B5E9F3C008DD026"
-            BuildableName = "mySwiftTest"
-            BlueprintName = "mySwiftTest"
-            ReferencedContainer = "container:mySwiftTest.xcodeproj">
+            BlueprintIdentifier = "05E05FAF1B5EA632008DD026"
+            BuildableName = "SwfitTest"
+            BlueprintName = "SwfitTest"
+            ReferencedContainer = "container:SwfitTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,10 +52,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "05E05F421B5E9F3C008DD026"
-            BuildableName = "mySwiftTest"
-            BlueprintName = "mySwiftTest"
-            ReferencedContainer = "container:mySwiftTest.xcodeproj">
+            BlueprintIdentifier = "05E05FAF1B5EA632008DD026"
+            BuildableName = "SwfitTest"
+            BlueprintName = "SwfitTest"
+            ReferencedContainer = "container:SwfitTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "05E05F421B5E9F3C008DD026"
-            BuildableName = "mySwiftTest"
-            BlueprintName = "mySwiftTest"
-            ReferencedContainer = "container:mySwiftTest.xcodeproj">
+            BlueprintIdentifier = "05E05FAF1B5EA632008DD026"
+            BuildableName = "SwfitTest"
+            BlueprintName = "SwfitTest"
+            ReferencedContainer = "container:SwfitTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
