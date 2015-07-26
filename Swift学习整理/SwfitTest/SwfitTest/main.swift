@@ -702,22 +702,62 @@ import Foundation
 //namesOfIntegers = [:]
 //print(namesOfIntegers);
 
-let digitNames = [
-    0: "Zero", 1: "One", 2: "Two", 3: "Three", 4: "Four",
-    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
-]
-
-let numbers = [16, 58, 510]
-
-let strings=numbers.map({
-    (var numbera) -> String in
-    var output="";
-    while(numbera>0){
-        output = digitNames[numbera%10]! + output
-        numbera /= 10
-    }
-    return output;
-})
+//let digitNames = [
+//    0: "Zero", 1: "One", 2: "Two", 3: "Three", 4: "Four",
+//    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
+//]
+//
+//let numbers = [16, 58, 510]
+//
+//let strings=numbers.map({
+//    (var numbera) -> String in
+//    var output="";
+//    while(numbera>0){
+//        output = digitNames[numbera%10]! + output
+//        numbera /= 10
+//    }
+//    return output;
+//})
 
 //println(strings);
+
+
+/*
+
+    闭包的概念：
+
+    闭包与函数类似，就是一个代码块封装了其所处环境的所有的状态
+    在闭包之前的所有变量和常量都会被它捕获。
+    从本质来讲闭包保留它定义时的程序状态
+    闭包还有另一个名称：lambda
+    函数是有名称的闭包
+
+    闭包的优点：
+
+    闭包能让你快速编写编写可以像函数一样传递参数的代码块，而且不需要给它们命名
+
+    { (parameters) -> return_type in
+    statements
+    }
+
+*/
+
+let simpleIntersCalculationClosue = {
+    (loanAmout : Double, var interstRate : Double, years : Int) -> Double in
+    interstRate = interstRate / 100.0;
+    var interest = Double(years) * interstRate * loanAmout;
+    
+    return interest + loanAmout;
+}
+
+func loanCalculator(loanAmout : Double,intereRate: Double , years : Int, calculator: (Double,Double,Int) -> Double) -> Double{
+    return calculator(loanAmout,intereRate,years);
+}
+var simple = loanCalculator(2000.0,3.587,1993,simpleIntersCalculationClosue);
+
+println(simple9k );
+
+
+
+
 

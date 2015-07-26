@@ -236,6 +236,7 @@
 				05E05FB91B5EA632008DD026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

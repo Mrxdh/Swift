@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>ED3217C2-FBCC-40DC-ABFE-AE512382BB3D</string>
+	<string>0F864072-AF52-402B-9A7E-CA5C3A8F4E29</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SwfitTest</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2416894DCD7C1900E26D0DCD52CEE8CD58E43DF3</key>
 		<string>https://github.com/Mrxdh/Swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swift学习整理/SwfitTest/SwfitTest.xcodeproj</string>
+	<string>Swift学习整理/Swidt.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2416894DCD7C1900E26D0DCD52CEE8CD58E43DF3</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Mrxdh/Swift.git</string>
